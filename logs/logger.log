@@ -1,0 +1,168 @@
+2018-10-17 15:37:20  [ main:1 ] - [ ERROR ]  save failed
+java.lang.NullPointerException
+	at com.wp.DTL645_Listener.dataUtils.ElectricDAO.save(ElectricDAO.java:46)
+	at com.wp.DTL645_Listener.service.DTL645Service.save(DTL645Service.java:14)
+	at com.wp.DTL645_Listener.start.MainFunction.main(MainFunction.java:44)
+2018-10-17 15:38:04  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:38:04  [ main:5 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:38:04  [ main:6 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:38:04  [ main:7 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:38:04  [ main:19 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:38:04  [ main:19 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:38:04  [ main:57 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/wp/DTL645_Listener/dataUtils/Electric.hbm.xml
+2018-10-17 15:38:04  [ main:117 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:38:04  [ main:167 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:38:04  [ main:170 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:38:04  [ main:171 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:38:04  [ main:171 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:38:04  [ main:171 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:38:05  [ main:353 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:38:05  [ main:353 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:38:05  [ main:355 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/wp/DTL645_Listener/dataUtils/Electric.hbm.xml
+2018-10-17 15:38:05  [ main:365 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:38:05  [ main:366 ] - [ INFO ]  HHH000071: Duplicate import: com.wp.DTL645_Listener.dataUtils.Electric -> com.wp.DTL645_Listener.dataUtils.Electric
+2018-10-17 15:38:05  [ main:366 ] - [ INFO ]  HHH000071: Duplicate import: com.wp.DTL645_Listener.dataUtils.Electric -> Electric
+2018-10-17 15:38:05  [ main:367 ] - [ ERROR ]  save failed
+java.lang.NullPointerException
+	at com.wp.DTL645_Listener.dataUtils.ElectricDAO.save(ElectricDAO.java:46)
+	at com.wp.DTL645_Listener.service.DTL645Service.save(DTL645Service.java:14)
+	at com.wp.DTL645_Listener.start.MainFunction.main(MainFunction.java:44)
+2018-10-17 15:39:31  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:39:31  [ main:4 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:39:31  [ main:6 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:39:31  [ main:6 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:39:32  [ main:18 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:39:32  [ main:18 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:39:32  [ main:50 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:39:32  [ main:77 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:39:32  [ main:127 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:39:32  [ main:130 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:39:32  [ main:130 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:39:32  [ main:131 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:39:32  [ main:131 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:39:32  [ main:312 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:39:32  [ main:316 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:39:32  [ main:322 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:39:32  [ main:325 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:40:20  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:40:20  [ main:5 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:40:20  [ main:6 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:40:20  [ main:8 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:40:20  [ main:21 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:40:20  [ main:21 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:40:20  [ main:56 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:40:20  [ main:85 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:40:20  [ main:142 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:40:20  [ main:145 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:40:20  [ main:145 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:40:20  [ main:146 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:40:20  [ main:146 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:40:20  [ main:324 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:40:20  [ main:329 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:40:20  [ main:337 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:40:20  [ main:340 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:51:02  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:51:02  [ main:4 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:51:02  [ main:6 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:51:02  [ main:7 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:51:02  [ main:19 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:51:02  [ main:19 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:51:02  [ main:52 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:51:02  [ main:79 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:51:02  [ main:131 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:51:02  [ main:134 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:51:02  [ main:134 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:51:02  [ main:134 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:51:02  [ main:134 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:51:03  [ main:341 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:51:03  [ main:346 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:51:03  [ main:352 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:51:03  [ main:356 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:51:21  [ main:0 ] - [ ERROR ]  打开串口错误:
+2018-10-17 15:51:21  [ main:70 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:51:21  [ main:74 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:51:21  [ main:75 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:51:21  [ main:76 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:51:21  [ main:89 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:51:21  [ main:90 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:51:21  [ main:124 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:51:21  [ main:151 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:51:21  [ main:204 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:51:21  [ main:207 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:51:21  [ main:207 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:51:21  [ main:208 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:51:21  [ main:208 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:51:21  [ main:386 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:51:21  [ main:391 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:51:21  [ main:397 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:51:21  [ main:400 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:52:15  [ main:0 ] - [ ERROR ]  打开串口错误:
+2018-10-17 15:52:15  [ main:70 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:52:15  [ main:75 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:52:15  [ main:76 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:52:15  [ main:77 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:52:15  [ main:89 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:52:15  [ main:90 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:52:15  [ main:123 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:52:15  [ main:149 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:52:15  [ main:201 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:52:15  [ main:204 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:52:15  [ main:204 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:52:15  [ main:205 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:52:15  [ main:205 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:52:15  [ main:383 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:52:15  [ main:387 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:52:15  [ main:394 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:52:15  [ main:396 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:52:15  [ main:603 ] - [ ERROR ]  save failed
+org.hibernate.TransactionException: commit failed
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:185)
+	at com.wp.DTL645_Listener.dataUtils.ElectricDAO.save(ElectricDAO.java:51)
+	at com.wp.DTL645_Listener.service.DTL645Service.save(DTL645Service.java:14)
+	at com.wp.DTL645_Listener.start.MainFunction.main(MainFunction.java:44)
+Caused by: org.hibernate.TransactionException: unable to commit against JDBC connection
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doCommit(JdbcTransaction.java:116)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:178)
+	... 3 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.DB.exec(DB.java:178)
+	at org.sqlite.SQLiteConnection.commit(SQLiteConnection.java:404)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.doCommit(JdbcTransaction.java:112)
+	... 4 more
+2018-10-17 15:52:23  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:52:23  [ main:4 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:52:23  [ main:6 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:52:23  [ main:7 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:52:23  [ main:18 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:52:23  [ main:19 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:52:23  [ main:51 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:52:24  [ main:78 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:52:24  [ main:128 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:52:24  [ main:131 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:52:24  [ main:132 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:52:24  [ main:132 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:52:24  [ main:132 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:52:24  [ main:307 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:52:24  [ main:311 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:52:24  [ main:317 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:52:24  [ main:320 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-10-17 15:52:29  [ main:0 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-10-17 15:52:29  [ main:9 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2018-10-17 15:52:29  [ main:11 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-10-17 15:52:29  [ main:12 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-10-17 15:52:29  [ main:29 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-10-17 15:52:29  [ main:29 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-10-17 15:52:30  [ main:62 ] - [ INFO ]  HHH000221: Reading mappings from resource: Electric.hbm.xml
+2018-10-17 15:52:30  [ main:89 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2018-10-17 15:52:30  [ main:141 ] - [ INFO ]  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-10-17 15:52:30  [ main:144 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20
+2018-10-17 15:52:30  [ main:144 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2018-10-17 15:52:30  [ main:145 ] - [ INFO ]  HHH000401: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:DTL645.db]
+2018-10-17 15:52:30  [ main:145 ] - [ INFO ]  HHH000046: Connection properties: {user=sa}
+2018-10-17 15:52:30  [ main:329 ] - [ INFO ]  HHH000400: Using dialect: com.wp.DTL645_Listener.dataUtils.SQLiteDialect
+2018-10-17 15:52:30  [ main:333 ] - [ INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2018-10-17 15:52:30  [ main:339 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-17 15:52:30  [ main:342 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
